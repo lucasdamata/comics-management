@@ -15,6 +15,8 @@ public class Autors {
     private Long idComic;
     private String name;
 
+    public Autors(){}
+
 
     public Autors(String name, Long comicId) {
         this.name = name;

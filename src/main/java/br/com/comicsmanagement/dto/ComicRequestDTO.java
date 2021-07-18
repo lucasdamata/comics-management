@@ -1,13 +1,8 @@
 package br.com.comicsmanagement.dto;
 
 import br.com.comicsmanagement.client.dto.CreatorsItemsResponse;
-import br.com.comicsmanagement.client.dto.CreatorsResponse;
 import br.com.comicsmanagement.client.dto.PricesResponse;
 import br.com.comicsmanagement.client.dto.ResponseApiDTO;
-import br.com.comicsmanagement.model.Comic;
-
-import javax.persistence.Column;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ComicRequestDTO {

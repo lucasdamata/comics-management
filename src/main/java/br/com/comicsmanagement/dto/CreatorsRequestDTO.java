@@ -1,9 +1,7 @@
 package br.com.comicsmanagement.dto;
 
-import br.com.comicsmanagement.client.dto.ResponseApiDTO;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -13,7 +11,6 @@ public class CreatorsRequestDTO {
 
     public CreatorsRequestDTO(ComicRequestDTO comicRequestDTO) {
         comicRequestDTO.getCreators().forEach(itemsResponse -> {
-            //this.name = Collections.singletonList(comicRequestDTO.getCreators().get(0).getName());
             this.name = Collections.singletonList(itemsResponse.getName());
             this.id_comic = comicRequestDTO.getComicId();
         });

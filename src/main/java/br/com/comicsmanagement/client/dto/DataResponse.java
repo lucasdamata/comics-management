@@ -16,7 +16,7 @@ public class DataResponse {
     @Override
     public String toString() {
         return "DataResponse{" +
-                "results=" + results.get(0)+
+                "results=" + results.get(0) +
                 '}';
     }
 }

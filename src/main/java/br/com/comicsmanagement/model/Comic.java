@@ -2,12 +2,8 @@ package br.com.comicsmanagement.model;
 
 import br.com.comicsmanagement.dto.ComicRequestDTO;
 import br.com.comicsmanagement.repository.UserRepository;
-import org.hibernate.validator.constraints.Length;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import javax.persistence.*;
 import java.util.List;
-import java.util.Optional;
 
 @Entity
 public class Comic {
@@ -26,6 +22,8 @@ public class Comic {
     private User user;
     private String dayDiscount = null;
     private Boolean discountActive = false;
+
+    public Comic() {}
 
 
     public Comic(ComicRequestDTO comicRequestDTO, UserRepository userRepository, Long id, List<Autors> autors) {

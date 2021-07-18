@@ -1,7 +1,5 @@
 package br.com.comicsmanagement.client.dto;
 
-import br.com.comicsmanagement.model.Comic;
-import br.com.comicsmanagement.model.User;
 
 public class ResponseApiDTO {
     private Long code;

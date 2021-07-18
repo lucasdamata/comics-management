@@ -2,7 +2,6 @@ package br.com.comicsmanagement.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.util.Objects;
 
 @Entity
 public class User {
